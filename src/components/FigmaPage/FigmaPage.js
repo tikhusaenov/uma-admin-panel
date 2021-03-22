@@ -1,10 +1,10 @@
 import React from 'react'
 import {makeStyles} from "@material-ui/core/styles";
-import avatar from './avatar.png'
-import dresses from './dresses.jpg'
-import dress_1 from './dress_1.jpg'
-import dress_2 from './dress_2.jpg'
-import dress_3 from './dress_3.jpg'
+import avatar from './images/avatar.png'
+import dresses from './images/dresses.jpg'
+import dress_1 from './images/dress_1.jpg'
+import dress_2 from './images/dress_2.jpg'
+import dress_3 from './images/dress_3.jpg'
 import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
 function createData(id, name, brand, price) {
