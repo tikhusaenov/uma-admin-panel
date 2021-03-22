@@ -116,7 +116,6 @@ function PostForm({formHeading}) {
     const classes = useStyles();
     const fixedHeightPaper = clsx(classes.paper, classes.fixedHeight);
     const [age, setAge] = React.useState('');
-    const [image, setImage] = React.useState('')
     const [state, setState] = React.useState({
         publish: false,
     });
@@ -128,9 +127,7 @@ function PostForm({formHeading}) {
     const handleChangeDropdown = (event) => {
         setAge(event.target.value);
     };
-    const handleUploadImage = event => {
-        setImage(event.target.value)
-    }
+
     return (
         <div>
             <div className={classes.appBarSpacer} />
